@@ -10,4 +10,13 @@ public class WeBuildServerApplication {
         SpringApplication.run(WeBuildServerApplication.class, args);
     }
 
+    @Bean
+    public WebMvcConfigurer corsConfigurer() {
+        return new WebMvcConfigurer() {
+            public void addCorsMappings(CorsRegistry registry) {
+                registry.addMapping("/**").allowedOrigis("*").allowedMethods("*").allowedHeaders("*");
+            }
+        };
+    }
+
 }
