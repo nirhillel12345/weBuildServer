@@ -3,6 +3,7 @@ package com.example.webuildserver.models;
 import java.awt.*;
 
 public class Project {
+    private int id;
     private String  name ;
 
     private String type ;
@@ -11,14 +12,19 @@ public class Project {
     private String status  ;
     protected Image img ;
 
-    public Project (String name, String type, String text, String location, String status, Image img)
+    public Project (int id, String name, String type, String text, String location, String status, Image img)
     {
+        this.id = id ;
         this.name = name ;
         this.type = type ;
         this.text = text ;
         this.location = location ;
         this.status = status;
         this.img = img ;
+    }
+    public int getId ()
+    {
+        return id;
     }
     public String getName ()
     {
