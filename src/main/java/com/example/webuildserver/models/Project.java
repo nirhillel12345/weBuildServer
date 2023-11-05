@@ -1,26 +1,30 @@
 package com.example.webuildserver.models;
 
 import java.awt.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Project {
     private int id;
     private String  name ;
 
     private String type ;
-    private String text ;
+    private String paragraph ;
+    private String title ;
     private String location  ;
     private String status  ;
-    protected Image img ;
+    protected List<String> images ;
 
-    public Project (int id, String name, String type, String text, String location, String status, Image img)
+    public Project (int id, String name, String type, String title,String paragraph, String location, String status, List<String> images)
     {
         this.id = id ;
         this.name = name ;
         this.type = type ;
-        this.text = text ;
+        this.title = title ;
+        this.paragraph = paragraph;
         this.location = location ;
         this.status = status;
-        this.img = img ;
+        this.images = images ;
     }
     public int getId ()
     {
@@ -30,17 +34,17 @@ public class Project {
     {
         return name;
     }
-    public String getText ()
+    public String getTitle ()
     {
-        return text;
+        return title;
     }
     public String getLocation ()
     {
         return location;
     }
-    public Image getImage ()
+    public List<String>  getImages ()
     {
-        return img;
+        return images;
     }
     public String getType ()
     {
@@ -49,6 +53,10 @@ public class Project {
     public String getStatus ()
     {
         return status;
+    }
+    public String getParagraph ()
+    {
+        return paragraph;
     }
 
 
