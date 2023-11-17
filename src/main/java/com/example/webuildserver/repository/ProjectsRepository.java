@@ -76,9 +76,7 @@ public class ProjectsRepository {
             if (!listOfFiles[i].getName().contains("main.")) {
                 listOfFilesNames.add(listOfFiles[i].getName());
             }
-            System.out.println("File " + listOfFiles[i].getName());
         }
-        System.out.println(listOfFilesNames.toArray().length);
         return listOfFilesNames;
     }
 }
