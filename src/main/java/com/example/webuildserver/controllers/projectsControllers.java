@@ -18,7 +18,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "projects")
-public class ProjectsControllers {
+class ProjectsControllers {
     @Autowired
     private ProjectsService projectsService;
 
