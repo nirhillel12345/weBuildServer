@@ -24,10 +24,12 @@ class ProjectsControllers {
 
     @GetMapping("/{language}")
     public ResponseEntity<List<Project>> getALlProjects(@PathVariable String language) {
+        System.out.println("in project request");
         try{
             return new ResponseEntity<>(projectsService.getProjectsByLanguage(language), HttpStatus.OK);
         }
         catch(Exception e) {
+            System.out.println("return error in project req" + e.toString());
             return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
         }
 

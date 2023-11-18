@@ -17,6 +17,7 @@ public class ProjectsService {
     }
     public Project getProjectByIdAndLanguage(int projectId, String language)
     {
+        System.out.println("in service get projects");
         return projectsRepository.findAll().get(language).stream().filter((project) -> project.getId() == projectId).findFirst().orElse(null);
     }
 }
