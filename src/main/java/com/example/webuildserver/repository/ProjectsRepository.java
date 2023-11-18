@@ -69,6 +69,7 @@ public class ProjectsRepository {
         return projects;
     }
     public static List<String> getFilesNameInFolder(String folderPath){
+        System.out.println("Working Directory = " + System.getProperty("user.dir"));
         File folder = new File(folderPath);
         File[] listOfFiles = folder.listFiles();
         List<String> listOfFilesNames = new ArrayList<String>();
