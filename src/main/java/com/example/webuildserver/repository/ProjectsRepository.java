@@ -22,32 +22,32 @@ public class ProjectsRepository {
         ArrayList<Project> projectsInEnglish = new ArrayList<>();
         ArrayList<Project> projectsInHebrew = new ArrayList<>();
         String usrDir = System.getProperty("user.dir");
-        List<String> imagesFilesNamesProject1 = getFilesNameInFolder(usrDir + "/src/main/java/com/example/webuildserver/repository/projectsImages/projectId-1");
+        List<String> imagesFilesNamesProject1 = getFilesNameInFolder(usrDir + "src/main/java/com/example/webuildserver/repository/projectsImages/projectId-1");
         imagesFilesNamesProject1.forEach((n) -> System.out.println(n +" 11111111"));
         Project project1english = new Project(1, "NOF YAMIM", "Office&Commerce","nof yamim is the new generation of building in the beutifaul area nof yam", "The Nof Yam project is a breathtaking project of a complex of buildings in which thinking was invested in the last detail","Nof yam","populated", imagesFilesNamesProject1);
         projectsInEnglish.add(project1english);
 
-        List<String> imagesFilesNamesProject2 = getFilesNameInFolder(usrDir + "/src/main/java/com/example/webuildserver/repository/projectsImages/projectId-2");
+        List<String> imagesFilesNamesProject2 = getFilesNameInFolder(usrDir + "src/main/java/com/example/webuildserver/repository/projectsImages/projectId-2");
         Project project2english = new Project(2, "Glil Yam","House" ,"Glil Yam  is the new generation of luxury house in the beutifaul area Glil Yam", "This is a luxury house that was built in the process of an amazing collaboration between the owners of the conference and the performers", "Glil Yam","populated", imagesFilesNamesProject2 );
         projectsInEnglish.add(project2english);
 
-        List<String> imagesFilesNamesProject3 = getFilesNameInFolder(usrDir + "/src/main/java/com/example/webuildserver/repository/projectsImages/projectId-3");
+        List<String> imagesFilesNamesProject3 = getFilesNameInFolder(usrDir + "src/main/java/com/example/webuildserver/repository/projectsImages/projectId-3");
         Project project3english = new Project(3, "Tel Avivim", "Office&Commerce","Tel aviv rotchild the perfect locatin", "Tel Avivim is a project in which a shell was built for an office building in which thinking was invested in all the small details and forms of the company" , "Tel aviv","populated", imagesFilesNamesProject3);
         projectsInEnglish.add(project3english);
 
-        List<String> imagesFilesNamesProject4 = getFilesNameInFolder(usrDir +"/src/main/java/com/example/webuildserver/repository/projectsImages/projectId-4");
+        List<String> imagesFilesNamesProject4 = getFilesNameInFolder(usrDir +"src/main/java/com/example/webuildserver/repository/projectsImages/projectId-4");
         Project project4english = new Project(4, "Pura Vida ","House" ,"private house in herzilya pituach ", "Fora Vida is the construction and finishing of luxury residences where customers can live the level of life they dreamed of without worries","Herzeliya Pituach","populated", imagesFilesNamesProject4 );
         projectsInEnglish.add(project4english);
 
-        List<String> imagesFilesNamesProject5 = getFilesNameInFolder(usrDir + "/src/main/java/com/example/webuildserver/repository/projectsImages/projectId-5");
+        List<String> imagesFilesNamesProject5 = getFilesNameInFolder(usrDir + "src/main/java/com/example/webuildserver/repository/projectsImages/projectId-5");
         Project project5english = new Project(5, "Supreme", "Apartment","Supreme the most beutifaul apratment in the cisy", "The Sofrim project is a construction project of the stunning apartment located in the center of Tel Aviv, therefore it has been adapted to a chic construction that will connect to the place where it is located", "Tel aviv","populated", imagesFilesNamesProject5);
         projectsInEnglish.add(project5english);
 
-        List<String> imagesFilesNamesProject6 = getFilesNameInFolder(usrDir +"/src/main/java/com/example/webuildserver/repository/projectsImages/projectId-6");
+        List<String> imagesFilesNamesProject6 = getFilesNameInFolder(usrDir +"src/main/java/com/example/webuildserver/repository/projectsImages/projectId-6");
         Project project6english = new Project(6, "Sharonim","House" ,"beatifaul privat house in ramat asharon", "Sharonim is a project in which a residence will be built for a family so that we can live at the standard of living in which she dreamed of aliyah all her life", "Ramat Asharon","populated", imagesFilesNamesProject6 );
         projectsInEnglish.add(project6english);
 
-        List<String> imagesFilesNamesProject7 = getFilesNameInFolder(usrDir + "/src/main/java/com/example/webuildserver/repository/projectsImages/projectId-7");
+        List<String> imagesFilesNamesProject7 = getFilesNameInFolder(usrDir + "src/main/java/com/example/webuildserver/repository/projectsImages/projectId-7");
         Project project7english = new Project(7, "Hal Hayam","Apartment" ,"hal hayam project is the closest to leave in havean ", "On the sea This is an apartment on the sea that has been renovated from the ground up with the highest level of finish at the customer's request and to match the level of the apartment to where it is located", "Herzilya pituach ","populated", imagesFilesNamesProject7 );
         projectsInEnglish.add(project7english);
 
