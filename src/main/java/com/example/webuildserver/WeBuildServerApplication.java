@@ -10,7 +10,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class WeBuildServerApplication {
 
     public static void main(String[] args) {
-        System.out.println("before running the spring server!!!!!");
         SpringApplication.run(WeBuildServerApplication.class, args);
     }
 
