@@ -22,50 +22,49 @@ public class ProjectsRepository {
         ArrayList<Project> projectsInEnglish = new ArrayList<>();
         ArrayList<Project> projectsInHebrew = new ArrayList<>();
         String usrDir = System.getProperty("user.dir");
-        List<String> imagesFilesNamesProject1 = getFilesNameInFolder(usrDir + "src/main/java/com/example/webuildserver/repository/projectsImages/projectId-1");
-        imagesFilesNamesProject1.forEach((n) -> System.out.println(n +" 11111111"));
-        Project project1english = new Project(1, "NOF YAMIM", "Office&Commerce","nof yamim is the new generation of building in the beutifaul area nof yam", "The Nof Yam project is a breathtaking project of a complex of buildings in which thinking was invested in the last detail","Nof yam","populated", imagesFilesNamesProject1);
+        //List<String> imagesFilesNamesProject1 = getFilesNameInFolder(usrDir + "src/main/java/com/example/webuildserver/repository/projectsImages/projectId-1");
+        Project project1english = new Project(1, "NOF YAMIM", "Office&Commerce","nof yamim is the new generation of building in the beutifaul area nof yam", "The Nof Yam project is a breathtaking project of a complex of buildings in which thinking was invested in the last detail","Nof yam","populated", null);
         projectsInEnglish.add(project1english);
 
-        List<String> imagesFilesNamesProject2 = getFilesNameInFolder(usrDir + "src/main/java/com/example/webuildserver/repository/projectsImages/projectId-2");
-        Project project2english = new Project(2, "Glil Yam","House" ,"Glil Yam  is the new generation of luxury house in the beutifaul area Glil Yam", "This is a luxury house that was built in the process of an amazing collaboration between the owners of the conference and the performers", "Glil Yam","populated", imagesFilesNamesProject2 );
+        //List<String> imagesFilesNamesProject2 = getFilesNameInFolder(usrDir + "src/main/java/com/example/webuildserver/repository/projectsImages/projectId-2");
+        Project project2english = new Project(2, "Glil Yam","House" ,"Glil Yam  is the new generation of luxury house in the beutifaul area Glil Yam", "This is a luxury house that was built in the process of an amazing collaboration between the owners of the conference and the performers", "Glil Yam","populated", null );
         projectsInEnglish.add(project2english);
 
-        List<String> imagesFilesNamesProject3 = getFilesNameInFolder(usrDir + "src/main/java/com/example/webuildserver/repository/projectsImages/projectId-3");
-        Project project3english = new Project(3, "Tel Avivim", "Office&Commerce","Tel aviv rotchild the perfect locatin", "Tel Avivim is a project in which a shell was built for an office building in which thinking was invested in all the small details and forms of the company" , "Tel aviv","populated", imagesFilesNamesProject3);
+        //List<String> imagesFilesNamesProject3 = getFilesNameInFolder(usrDir + "src/main/java/com/example/webuildserver/repository/projectsImages/projectId-3");
+        Project project3english = new Project(3, "Tel Avivim", "Office&Commerce","Tel aviv rotchild the perfect locatin", "Tel Avivim is a project in which a shell was built for an office building in which thinking was invested in all the small details and forms of the company" , "Tel aviv","populated", null);
         projectsInEnglish.add(project3english);
 
-        List<String> imagesFilesNamesProject4 = getFilesNameInFolder(usrDir +"src/main/java/com/example/webuildserver/repository/projectsImages/projectId-4");
-        Project project4english = new Project(4, "Pura Vida ","House" ,"private house in herzilya pituach ", "Fora Vida is the construction and finishing of luxury residences where customers can live the level of life they dreamed of without worries","Herzeliya Pituach","populated", imagesFilesNamesProject4 );
+        //List<String> imagesFilesNamesProject4 = getFilesNameInFolder(usrDir +"src/main/java/com/example/webuildserver/repository/projectsImages/projectId-4");
+        Project project4english = new Project(4, "Pura Vida ","House" ,"private house in herzilya pituach ", "Pura Vida is the construction and finishing of luxury residences where customers can live the level of life they dreamed of without worries","Herzeliya Pituach","populated", null );
         projectsInEnglish.add(project4english);
 
-        List<String> imagesFilesNamesProject5 = getFilesNameInFolder(usrDir + "src/main/java/com/example/webuildserver/repository/projectsImages/projectId-5");
-        Project project5english = new Project(5, "Supreme", "Apartment","Supreme the most beutifaul apratment in the cisy", "The Sofrim project is a construction project of the stunning apartment located in the center of Tel Aviv, therefore it has been adapted to a chic construction that will connect to the place where it is located", "Tel aviv","populated", imagesFilesNamesProject5);
+        //List<String> imagesFilesNamesProject5 = getFilesNameInFolder(usrDir + "src/main/java/com/example/webuildserver/repository/projectsImages/projectId-5");
+        Project project5english = new Project(5, "Supreme", "Apartment","Supreme the most beutifaul apratment in the city", "The Sofrim project is a construction project of the stunning apartment located in the center of Tel Aviv, therefore it has been adapted to a chic construction that will connect to the place where it is located", "Tel aviv","populated", null);
         projectsInEnglish.add(project5english);
 
-        List<String> imagesFilesNamesProject6 = getFilesNameInFolder(usrDir +"src/main/java/com/example/webuildserver/repository/projectsImages/projectId-6");
-        Project project6english = new Project(6, "Sharonim","House" ,"beatifaul privat house in ramat asharon", "Sharonim is a project in which a residence will be built for a family so that we can live at the standard of living in which she dreamed of aliyah all her life", "Ramat Asharon","populated", imagesFilesNamesProject6 );
+        //List<String> imagesFilesNamesProject6 = getFilesNameInFolder(usrDir +"src/main/java/com/example/webuildserver/repository/projectsImages/projectId-6");
+        Project project6english = new Project(6, "Sharonim","House" ,"beatifaul privat house in ramat asharon", "Sharonim is a project in which a residence will be built for a family so that we can live at the standard of living in which she dreamed of aliyah all her life", "Ramat Asharon","populated", null );
         projectsInEnglish.add(project6english);
 
-        List<String> imagesFilesNamesProject7 = getFilesNameInFolder(usrDir + "src/main/java/com/example/webuildserver/repository/projectsImages/projectId-7");
-        Project project7english = new Project(7, "Hal Hayam","Apartment" ,"hal hayam project is the closest to leave in havean ", "On the sea This is an apartment on the sea that has been renovated from the ground up with the highest level of finish at the customer's request and to match the level of the apartment to where it is located", "Herzilya pituach ","populated", imagesFilesNamesProject7 );
+        //List<String> imagesFilesNamesProject7 = getFilesNameInFolder(usrDir + "src/main/java/com/example/webuildserver/repository/projectsImages/projectId-7");
+        Project project7english = new Project(7, "Hal Hayam","Apartment" ,"hal hayam project is the closest to leave in havean ", "On the sea This is an apartment on the sea that has been renovated from the ground up with the highest level of finish at the customer's request and to match the level of the apartment to where it is located", "Herzilya pituach ","populated", null );
         projectsInEnglish.add(project7english);
 
         projects.put("english",projectsInEnglish);
 
-        Project project1hebrew = new Project(1, "נוף ימים", "משרדים ומסחר","נוף ים זה הדור החדש של בניינים יפים","פרויקט נוף ים זה פרויקט עוצר נשימה של קומפלקס בניינים שהושקע בהם חשיבה יד הפרט האחרון","נוף ים","מאוכלס", imagesFilesNamesProject1);
+        Project project1hebrew = new Project(1, "נוף ימים", "משרדים ומסחר","נוף ים זה הדור החדש של בניינים יפים","פרויקט נוף ים זה פרויקט עוצר נשימה של קומפלקס בניינים שהושקע בהם חשיבה יד הפרט האחרון","נוף ים","מאוכלס", null);
         projectsInHebrew.add(project1hebrew);
-        Project project2hebrew = new Project(2, "גליל ימים","בית" ,"גליל ים זה הדור החדש של בניינים יפים", "גליל ים זה פרוויקט של בית יוקרה שנותן לך להרגיש לגור כמו בגן עדן זה בית יוקרה שנבה בתהליך של שיתוף מדהים בין בעלי הכנס לבין צוות המבצעים", "גליל ים","מאוכלס", imagesFilesNamesProject2 );
+        Project project2hebrew = new Project(2, "גליל ימים","בית" ,"גליל ים זה הדור החדש של בניינים יפים", "גליל ים זה פרוויקט של בית יוקרה שנותן לך להרגיש לגור כמו בגן עדן זה בית יוקרה שנבה בתהליך של שיתוף מדהים בין בעלי הכנס לבין צוות המבצעים", "גליל ים","מאוכלס", null );
         projectsInHebrew.add(project2hebrew);
-        Project project3hebrew = new Project(3, "תל אביבים", "משרדים ומסחר","פרוייקט תל אביבים זה הדור החדש של בנייה ", "תל אביבים זה פרויקט שבו נבנה מעטפת לבניין משרדים שהושקע בו חשיבה על כל הפרטים הקטנים וצורי החברה ","תל אביב","מאוכלס", imagesFilesNamesProject3);
+        Project project3hebrew = new Project(3, "תל אביבים", "משרדים ומסחר","פרוייקט תל אביבים זה הדור החדש של בנייה ", "תל אביבים זה פרויקט שבו נבנה מעטפת לבניין משרדים שהושקע בו חשיבה על כל הפרטים הקטנים וצורי החברה ","תל אביב","מאוכלס", null);
         projectsInHebrew.add(project3hebrew);
-        Project project4hebrew = new Project(4, "פורה וידה","בית" ,"בית פרטי בהרצליה פיתוח עם בנייה מהממת ", "פורה וידה זה בנייה וגימור של מגורי יוקרה שבו ניתן ללקוחות לחיות רמת חיים שבו הם חלמו עליו מבלי דאגות ", "הרצליה פיתוח","מאוכלס", imagesFilesNamesProject4 );
+        Project project4hebrew = new Project(4, "פורה וידה","בית" ,"בית פרטי בהרצליה פיתוח עם בנייה מהממת ", "פורה וידה זה בנייה וגימור של מגורי יוקרה שבו ניתן ללקוחות לחיות רמת חיים שבו הם חלמו עליו מבלי דאגות ", "הרצליה פיתוח","מאוכלס", null );
         projectsInHebrew.add(project4hebrew);
-        Project project5hebrew = new Project(5, "סופרים", "דירה","סופרים זה דירה מהממת במרכז תל אביב", "פרויקט סופרים הוא פרוויקט בנייה של הדירה המהממת שנמצאת במרכז תל אביב ולכן הותאם לה בנייה שיקית שתתחבר למקום שבו היא נמצאת ", "תל אביב","מאוכלס", imagesFilesNamesProject5);
+        Project project5hebrew = new Project(5, "סופרים", "דירה","סופרים זה דירה מהממת במרכז תל אביב", "פרויקט סופרים הוא פרוויקט בנייה של הדירה המהממת שנמצאת במרכז תל אביב ולכן הותאם לה בנייה שיקית שתתחבר למקום שבו היא נמצאת ", "תל אביב","מאוכלס", null);
         projectsInHebrew.add(project5hebrew);
-        Project project6hebrew = new Project(6, "שרונים","בית" ,"בית פרטי מהממם ברמת שרון", "שרונים זה פרויקט שבו נבנה בית מגורים למשפחה שנוכל לחיות ברמת החיים שבו היא חלמה עלייה כל החיים.","רמת השרון","מאוכלס", imagesFilesNamesProject6 );
+        Project project6hebrew = new Project(6, "שרונים","בית" ,"בית פרטי מהממם ברמת שרון", "שרונים זה פרויקט שבו נבנה בית מגורים למשפחה שנוכל לחיות ברמת החיים שבו היא חלמה עלייה כל החיים.","רמת השרון","מאוכלס", null );
         projectsInHebrew.add(project6hebrew);
-        Project project7hebrew = new Project(7, "על הים","דירה" ,"על הים זה פרויקט חדשני להרגיש לחיות בגן עדן", "על הים זוהי דירה על הים ששופצה מהיסוד ברמת גימור הכי גבוה לבקשת הלקוח ולהתאמת רמת הדירה למקום בו היא נמצאת ", "הרצליה פיתוח","מאוכלס", imagesFilesNamesProject7 );
+        Project project7hebrew = new Project(7, "על הים","דירה" ,"על הים זה פרויקט חדשני להרגיש לחיות בגן עדן", "על הים זוהי דירה על הים ששופצה מהיסוד ברמת גימור הכי גבוה לבקשת הלקוח ולהתאמת רמת הדירה למקום בו היא נמצאת ", "הרצליה פיתוח","מאוכלס", null );
         projects.put("hebrew",projectsInHebrew);
         projectsInHebrew.add(project7hebrew);
         return projects;
